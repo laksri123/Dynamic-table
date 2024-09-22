@@ -1,0 +1,60 @@
+.edit-modal{
+    
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        height: 35vh;
+        width: 28%;
+        border-radius: 7px;
+        top: 20%;
+        background-color: #3a3a3a;
+        left: 35%;
+        z-index: 22;
+        box-shadow: 2px 2px 12px grey;
+        padding: 10px;
+        gap: 10px;
+    
+}
+.edit-modal input {
+        padding: 4px 10px;
+        background-color: black;
+        color: lightgray;
+        border: 1px solid grey;
+        border-radius: 4px;
+        box-shadow: 1px 1px 6px #424242, -1px -1px 6px #424242;
+        height: 40px;
+        font-size: 16px;
+        outline: none;
+        margin-top: 20px;
+    }
+.edit-modal-btn-container{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px auto;
+        width: 80%;
+        margin-top: 50px;
+    
+    }
+    .edit-modal-btn {
+        padding: 7px 10px;
+        font-size: 16px;
+        border-radius: 4px;
+        box-shadow: 1px 1px 2px #686868, -1px -1px 2px #686868;
+        border: none;
+        background-color: #636363;
+        color: white;
+        width: 130px;
+        text-align: center;
+    }
+    .edit-modal-save-btn {
+        padding: 7px 10px;
+        font-size: 16px;
+        border-radius: 4px;
+        box-shadow: 1px 1px 2px #686868, -1px -1px 2px #686868;
+        border: none;
+        background-color: #636363;
+        color: white;
+        width: 130px;
+        text-align: center;
+        background-color: blue;
+    }

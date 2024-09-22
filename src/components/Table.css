@@ -1,0 +1,87 @@
+.table-btn-container {
+    display: flex;
+    gap: 10px;
+}
+
+.table {
+    margin: 1em 10px;
+}
+
+.table-head {
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+    position: relative;
+    padding: 7px 10px;
+    background-color: #3a3a3a;
+}
+
+.table-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-cell {
+    width: 100%;
+    border: 1px solid white;
+    padding: 5px 10px;
+}
+
+.table-heading {
+    font-size: 1.7em;
+    margin: 5px;
+    font-weight: 600;
+}
+
+.filter-icon {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.table-row-add {
+    margin: 0 10px;
+    border-radius: 50%;
+    font-size: 1.2em;
+    background-color: grey;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.add-row-btn{
+    padding: 7px 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px #686868, -1px -1px 2px #686868;
+    border: none;
+    background-color: #636363;
+    color: white;
+    width: 130px;
+    text-align: center;
+    background-color: blue;
+}
+.add-clm-btn{
+    padding: 7px 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px #686868, -1px -1px 2px #686868;
+    border: none;
+    background-color: #636363;
+    color: white;
+    width: 130px;
+    text-align: center;
+}

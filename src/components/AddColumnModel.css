@@ -1,0 +1,50 @@
+.column-modal{
+    position: absolute;
+    display: flex;
+    height: 28vh;
+    width: 35vw;
+    border: 2px solid grey;
+    border-radius: 7px;
+    top: 20%;
+    background-color:  #3a3a3a;
+    left: 20%;
+    z-index: 22;
+    box-shadow: 2px 2px 12px grey;
+    flex-direction: column;
+    padding: 30px;
+    gap: 10px;
+}
+.column-modal input{
+    padding: 4px 10px;
+    background-color: black;
+    color: lightgray;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-shadow: 1px 1px 6px #424242, -1px -1px 6px #424242;
+    height: 40px;
+    font-size: 16px;
+    outline: none;
+}
+.column-modal select{
+    padding: 4px 10px;
+    background-color: black;
+    color: lightgray;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-shadow: 1px 1px 6px #424242, -1px -1px 6px #424242;
+    height: 40px;
+    font-size: 16px;
+    outline: none;
+}
+.add-column-btn{
+    padding: 7px 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px #686868, -1px -1px 2px #686868;
+    border: none;
+    background-color: blue;
+    color: white;
+    width: 130px;
+    text-align: center;
+   
+}

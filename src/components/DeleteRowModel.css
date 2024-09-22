@@ -1,0 +1,57 @@
+.delete-modal{
+    position: absolute;
+    display: flex;
+    height: 40vh;
+    width: 40vw;
+    border: 2px solid grey;
+    border-radius: 7px;
+    top: 0;
+    background-color: #3a3a3a;
+    color: azure;
+    left: 20%;
+    z-index: 22;
+    box-shadow: 2px 2px 12px grey;
+    flex-direction: column;
+    padding: 0px;
+    gap: 0px;
+}
+.delete-confirm{
+    text-transform: uppercase;
+    
+}
+.delete-sure{
+    margin-top: 30px;
+}
+.delete-cantdone{
+    margin-bottom: 10px;
+}
+.del-btn{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px auto;
+        width: 80%;
+        margin-top: 50px;
+}
+.delete-row-btn{
+    padding: 7px 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px #686868, -1px -1px 2px #686868;
+    border: none;
+    background-color: #636363;
+    color: white;
+    width: 130px;
+    text-align: center;
+    margin-right: 50px;
+}
+.delete-confirm-btn{
+    padding: 7px 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px #686868, -1px -1px 2px #686868;
+    border: none;
+    background-color: blue;
+    color: white;
+    width: 130px;
+    text-align: center;
+}

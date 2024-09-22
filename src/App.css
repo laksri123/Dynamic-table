@@ -1,0 +1,81 @@
+.modal {
+    position: absolute;
+    display: flex;
+    height: 50vh;
+    width: 50vw;
+    border: 2px solid grey;
+    border-radius: 7px;
+    top: 20%;
+    background-color: white;
+    left: 20%;
+    z-index: 22;
+    box-shadow: 2px 2px 12px grey;
+    flex-direction: column;
+    padding: 30px;
+    gap: 10px;
+}
+
+.modal input,
+.modal select,
+.modal button {
+    width: 70%;
+    margin: auto;
+}
+
+.bor {
+    border: 2px solid black;
+    padding: 3px;
+    flex: 1;
+}
+.modal1{
+    position: absolute;
+    display: flex;
+    height: 60vh;
+    width: 60vw;
+    border: 2px solid grey;
+    border-radius: 7px;
+    top: 0%;
+    background-color: white;
+    left: 20%;
+    z-index: 22;
+    box-shadow: 2px 2px 12px grey;
+    flex-direction: column;
+    padding: 0px;
+    gap: 0px;
+
+}
+.model2{
+    position: absolute;
+    display: flex;
+    height: 50vh;
+    width: 50vw;
+    border: 2px solid grey;
+    border-radius: 7px;
+    top: 0;
+    background-color: grey;
+    color: azure;
+    left: 20%;
+    z-index: 22;
+    box-shadow: 2px 2px 12px grey;
+    flex-direction: column;
+    padding: 0px;
+    gap: 0px;
+}
+.model3{
+    position: absolute;
+    display: flex;
+    height: 20vh;
+    width: 20vw;
+    border: 2px solid grey;
+    border-radius: 7px;
+    top: 0;
+    background-color: grey;
+    color: azure;
+    left: 20%;
+    z-index: 22;
+    box-shadow: 2px 2px 12px grey;
+    flex-direction: column;
+    padding: 0px;
+    gap: 0px;
+
+}
